@@ -1,0 +1,106 @@
+The device in use is: cuda
+The vocabulary size of training data is: 10001
+For Training, at Epoch [1/100], Train vs Valid Loss: 5.9693 / 5.4288, Train vs Valid Perplexity: 391.22 / 227.87
+For Training, at Epoch [2/100], Train vs Valid Loss: 5.2055 / 5.1634, Train vs Valid Perplexity: 182.27 / 174.77
+For Training, at Epoch [3/100], Train vs Valid Loss: 4.8898 / 5.0223, Train vs Valid Perplexity: 132.93 / 151.76
+For Training, at Epoch [4/100], Train vs Valid Loss: 4.6747 / 4.9699, Train vs Valid Perplexity: 107.20 / 144.02
+For Training, at Epoch [5/100], Train vs Valid Loss: 4.4971 / 4.9464, Train vs Valid Perplexity: 89.75 / 140.66
+For Training, at Epoch [6/100], Train vs Valid Loss: 4.3570 / 4.9388, Train vs Valid Perplexity: 78.02 / 139.60
+For Training, at Epoch [7/100], Train vs Valid Loss: 4.2259 / 4.9401, Train vs Valid Perplexity: 68.44 / 139.78
+Epoch     7: reducing learning rate of group 0 to 2.5000e-04.
+For Training, at Epoch [8/100], Train vs Valid Loss: 4.1094 / 4.9517, Train vs Valid Perplexity: 60.91 / 141.42
+For Training, at Epoch [9/100], Train vs Valid Loss: 3.9825 / 4.8795, Train vs Valid Perplexity: 53.65 / 131.57
+For Training, at Epoch [10/100], Train vs Valid Loss: 3.9236 / 4.8819, Train vs Valid Perplexity: 50.58 / 131.88
+Epoch    10: reducing learning rate of group 0 to 6.2500e-05.
+For Training, at Epoch [11/100], Train vs Valid Loss: 3.8817 / 4.8877, Train vs Valid Perplexity: 48.50 / 132.65
+For Training, at Epoch [12/100], Train vs Valid Loss: 3.8575 / 4.8583, Train vs Valid Perplexity: 47.35 / 128.80
+For Training, at Epoch [13/100], Train vs Valid Loss: 3.8392 / 4.8579, Train vs Valid Perplexity: 46.49 / 128.76
+Epoch    13: reducing learning rate of group 0 to 1.5625e-05.
+For Training, at Epoch [14/100], Train vs Valid Loss: 3.8248 / 4.8592, Train vs Valid Perplexity: 45.82 / 128.92
+For Training, at Epoch [15/100], Train vs Valid Loss: 3.8183 / 4.8534, Train vs Valid Perplexity: 45.53 / 128.18
+For Training, at Epoch [16/100], Train vs Valid Loss: 3.8112 / 4.8520, Train vs Valid Perplexity: 45.21 / 128.00
+For Training, at Epoch [17/100], Train vs Valid Loss: 3.8060 / 4.8522, Train vs Valid Perplexity: 44.97 / 128.02
+Epoch    17: reducing learning rate of group 0 to 3.9063e-06.
+For Training, at Epoch [18/100], Train vs Valid Loss: 3.8033 / 4.8518, Train vs Valid Perplexity: 44.85 / 127.97
+For Training, at Epoch [19/100], Train vs Valid Loss: 3.7973 / 4.8513, Train vs Valid Perplexity: 44.58 / 127.91
+For Training, at Epoch [20/100], Train vs Valid Loss: 3.7967 / 4.8513, Train vs Valid Perplexity: 44.55 / 127.91
+Epoch    20: reducing learning rate of group 0 to 9.7656e-07.
+For Training, at Epoch [21/100], Train vs Valid Loss: 3.7964 / 4.8512, Train vs Valid Perplexity: 44.54 / 127.89
+For Training, at Epoch [22/100], Train vs Valid Loss: 3.7938 / 4.8511, Train vs Valid Perplexity: 44.43 / 127.89
+Epoch    22: reducing learning rate of group 0 to 2.4414e-07.
+For Training, at Epoch [23/100], Train vs Valid Loss: 3.7937 / 4.8512, Train vs Valid Perplexity: 44.42 / 127.89
+For Training, at Epoch [24/100], Train vs Valid Loss: 3.7930 / 4.8511, Train vs Valid Perplexity: 44.39 / 127.89
+Epoch    24: reducing learning rate of group 0 to 6.1035e-08.
+For Training, at Epoch [25/100], Train vs Valid Loss: 3.7940 / 4.8511, Train vs Valid Perplexity: 44.43 / 127.89
+For Training, at Epoch [26/100], Train vs Valid Loss: 3.7927 / 4.8511, Train vs Valid Perplexity: 44.38 / 127.89
+Epoch    26: reducing learning rate of group 0 to 1.5259e-08.
+For Training, at Epoch [27/100], Train vs Valid Loss: 3.7932 / 4.8511, Train vs Valid Perplexity: 44.40 / 127.88
+For Training, at Epoch [28/100], Train vs Valid Loss: 3.7931 / 4.8511, Train vs Valid Perplexity: 44.40 / 127.88
+Epoch    28: reducing learning rate of group 0 to 3.8147e-09.
+For Training, at Epoch [29/100], Train vs Valid Loss: 3.7935 / 4.8511, Train vs Valid Perplexity: 44.41 / 127.88
+For Training, at Epoch [30/100], Train vs Valid Loss: 3.7940 / 4.8511, Train vs Valid Perplexity: 44.43 / 127.88
+^C-----------------------------------------------------------------------------------------
+Exiting from training early
+For test data, Loss: 4.7650, Perplexity: 117.33
+
+LSTM + Tie(Default Init) + SGD(Momentum + wDecay)
+The device in use is: cuda
+The vocabulary size of training data is: 10001
+number of parameters: 51035501
+For Training, at Epoch [1/100], Training Time: 190.315, Learning rate: 20.0000, Train vs Valid Loss: 5.9516 / 5.3830, Train vs Valid Perplexity: 384.37 / 217.67
+For Training, at Epoch [2/100], Training Time: 191.309, Learning rate: 20.0000, Train vs Valid Loss: 5.2400 / 5.0584, Train vs Valid Perplexity: 188.68 / 157.35
+For Training, at Epoch [3/100], Training Time: 191.653, Learning rate: 20.0000, Train vs Valid Loss: 5.0091 / 4.8840, Train vs Valid Perplexity: 149.77 / 132.16
+For Training, at Epoch [4/100], Training Time: 191.848, Learning rate: 20.0000, Train vs Valid Loss: 4.8554 / 4.7697, Train vs Valid Perplexity: 128.43 / 117.89
+For Training, at Epoch [5/100], Training Time: 192.021, Learning rate: 20.0000, Train vs Valid Loss: 4.7402 / 4.6965, Train vs Valid Perplexity: 114.46 / 109.57
+For Training, at Epoch [6/100], Training Time: 191.684, Learning rate: 20.0000, Train vs Valid Loss: 4.6503 / 4.6387, Train vs Valid Perplexity: 104.62 / 103.41
+For Training, at Epoch [7/100], Training Time: 192.098, Learning rate: 20.0000, Train vs Valid Loss: 4.5745 / 4.5955, Train vs Valid Perplexity: 96.98 / 99.03
+For Training, at Epoch [8/100], Training Time: 192.664, Learning rate: 20.0000, Train vs Valid Loss: 4.5145 / 4.5539, Train vs Valid Perplexity: 91.33 / 95.00
+For Training, at Epoch [9/100], Training Time: 193.212, Learning rate: 20.0000, Train vs Valid Loss: 4.4610 / 4.5334, Train vs Valid Perplexity: 86.57 / 93.08
+For Training, at Epoch [10/100], Training Time: 193.623, Learning rate: 20.0000, Train vs Valid Loss: 4.4129 / 4.5048, Train vs Valid Perplexity: 82.51 / 90.45
+For Training, at Epoch [11/100], Training Time: 193.441, Learning rate: 20.0000, Train vs Valid Loss: 4.3708 / 4.4851, Train vs Valid Perplexity: 79.11 / 88.68
+For Training, at Epoch [12/100], Training Time: 193.140, Learning rate: 20.0000, Train vs Valid Loss: 4.3339 / 4.4638, Train vs Valid Perplexity: 76.24 / 86.82
+For Training, at Epoch [13/100], Training Time: 193.964, Learning rate: 20.0000, Train vs Valid Loss: 4.2959 / 4.4490, Train vs Valid Perplexity: 73.40 / 85.54
+For Training, at Epoch [14/100], Training Time: 194.399, Learning rate: 20.0000, Train vs Valid Loss: 4.2666 / 4.4458, Train vs Valid Perplexity: 71.28 / 85.27
+For Training, at Epoch [15/100], Training Time: 193.960, Learning rate: 20.0000, Train vs Valid Loss: 4.2361 / 4.4264, Train vs Valid Perplexity: 69.14 / 83.63
+For Training, at Epoch [16/100], Training Time: 194.667, Learning rate: 20.0000, Train vs Valid Loss: 4.2091 / 4.4224, Train vs Valid Perplexity: 67.30 / 83.30
+For Training, at Epoch [17/100], Training Time: 194.642, Learning rate: 20.0000, Train vs Valid Loss: 4.1839 / 4.4142, Train vs Valid Perplexity: 65.62 / 82.62
+For Training, at Epoch [18/100], Training Time: 195.396, Learning rate: 20.0000, Train vs Valid Loss: 4.1600 / 4.4072, Train vs Valid Perplexity: 64.07 / 82.04
+For Training, at Epoch [19/100], Training Time: 195.296, Learning rate: 20.0000, Train vs Valid Loss: 4.1399 / 4.4058, Train vs Valid Perplexity: 62.80 / 81.92
+For Training, at Epoch [20/100], Training Time: 196.097, Learning rate: 20.0000, Train vs Valid Loss: 4.1183 / 4.3975, Train vs Valid Perplexity: 61.45 / 81.25
+For Training, at Epoch [21/100], Training Time: 195.952, Learning rate: 20.0000, Train vs Valid Loss: 4.0988 / 4.3963, Train vs Valid Perplexity: 60.27 / 81.15
+For Training, at Epoch [22/100], Training Time: 195.959, Learning rate: 20.0000, Train vs Valid Loss: 4.0792 / 4.3913, Train vs Valid Perplexity: 59.10 / 80.75
+For Training, at Epoch [23/100], Training Time: 195.990, Learning rate: 20.0000, Train vs Valid Loss: 4.0616 / 4.3880, Train vs Valid Perplexity: 58.07 / 80.48
+For Training, at Epoch [24/100], Training Time: 196.779, Learning rate: 10.0000, Train vs Valid Loss: 4.0448 / 4.3895, Train vs Valid Perplexity: 57.10 / 80.60
+For Training, at Epoch [25/100], Training Time: 196.426, Learning rate: 10.0000, Train vs Valid Loss: 3.8799 / 4.3472, Train vs Valid Perplexity: 48.42 / 77.26
+For Training, at Epoch [26/100], Training Time: 197.024, Learning rate: 5.0000, Train vs Valid Loss: 3.8082 / 4.3510, Train vs Valid Perplexity: 45.07 / 77.56
+For Training, at Epoch [27/100], Training Time: 197.586, Learning rate: 5.0000, Train vs Valid Loss: 3.6977 / 4.3316, Train vs Valid Perplexity: 40.35 / 76.06
+For Training, at Epoch [28/100], Training Time: 197.610, Learning rate: 2.5000, Train vs Valid Loss: 3.6473 / 4.3359, Train vs Valid Perplexity: 38.37 / 76.39
+For Training, at Epoch [29/100], Training Time: 197.540, Learning rate: 2.5000, Train vs Valid Loss: 3.5892 / 4.3313, Train vs Valid Perplexity: 36.20 / 76.04
+For Training, at Epoch [30/100], Training Time: 197.593, Learning rate: 1.2500, Train vs Valid Loss: 3.5568 / 4.3335, Train vs Valid Perplexity: 35.05 / 76.21
+For Training, at Epoch [31/100], Training Time: 198.716, Learning rate: 1.2500, Train vs Valid Loss: 3.5251 / 4.3289, Train vs Valid Perplexity: 33.96 / 75.86
+For Training, at Epoch [32/100], Training Time: 198.616, Learning rate: 0.6250, Train vs Valid Loss: 3.5070 / 4.3292, Train vs Valid Perplexity: 33.35 / 75.88
+For Training, at Epoch [33/100], Training Time: 198.525, Learning rate: 0.6250, Train vs Valid Loss: 3.4920 / 4.3245, Train vs Valid Perplexity: 32.85 / 75.53
+For Training, at Epoch [34/100], Training Time: 198.982, Learning rate: 0.3125, Train vs Valid Loss: 3.4825 / 4.3254, Train vs Valid Perplexity: 32.54 / 75.60
+For Training, at Epoch [35/100], Training Time: 199.243, Learning rate: 0.3125, Train vs Valid Loss: 3.4755 / 4.3217, Train vs Valid Perplexity: 32.31 / 75.31
+For Training, at Epoch [36/100], Training Time: 199.056, Learning rate: 0.1562, Train vs Valid Loss: 3.4700 / 4.3218, Train vs Valid Perplexity: 32.14 / 75.32
+For Training, at Epoch [37/100], Training Time: 199.494, Learning rate: 0.1562, Train vs Valid Loss: 3.4639 / 4.3186, Train vs Valid Perplexity: 31.94 / 75.09
+For Training, at Epoch [38/100], Training Time: 199.585, Learning rate: 0.1562, Train vs Valid Loss: 3.4621 / 4.3182, Train vs Valid Perplexity: 31.88 / 75.05
+For Training, at Epoch [39/100], Training Time: 199.597, Learning rate: 0.1562, Train vs Valid Loss: 3.4612 / 4.3177, Train vs Valid Perplexity: 31.85 / 75.02
+For Training, at Epoch [40/100], Training Time: 199.917, Learning rate: 0.0781, Train vs Valid Loss: 3.4575 / 4.3184, Train vs Valid Perplexity: 31.74 / 75.07
+For Training, at Epoch [41/100], Training Time: 200.024, Learning rate: 0.0781, Train vs Valid Loss: 3.4568 / 4.3165, Train vs Valid Perplexity: 31.72 / 74.92
+For Training, at Epoch [42/100], Training Time: 200.924, Learning rate: 0.0391, Train vs Valid Loss: 3.4547 / 4.3167, Train vs Valid Perplexity: 31.65 / 74.94
+For Training, at Epoch [43/100], Training Time: 202.088, Learning rate: 0.0391, Train vs Valid Loss: 3.4557 / 4.3153, Train vs Valid Perplexity: 31.68 / 74.84
+For Training, at Epoch [44/100], Training Time: 199.312, Learning rate: 0.0391, Train vs Valid Loss: 3.4568 / 4.3147, Train vs Valid Perplexity: 31.71 / 74.79
+For Training, at Epoch [45/100], Training Time: 201.345, Learning rate: 0.0391, Train vs Valid Loss: 3.4517 / 4.3147, Train vs Valid Perplexity: 31.56 / 74.79
+For Training, at Epoch [46/100], Training Time: 201.722, Learning rate: 0.0391, Train vs Valid Loss: 3.4524 / 4.3147, Train vs Valid Perplexity: 31.57 / 74.79
+For Training, at Epoch [47/100], Training Time: 202.215, Learning rate: 0.0391, Train vs Valid Loss: 3.4522 / 4.3145, Train vs Valid Perplexity: 31.57 / 74.78
+For Training, at Epoch [48/100], Training Time: 202.186, Learning rate: 0.0195, Train vs Valid Loss: 3.4510 / 4.3148, Train vs Valid Perplexity: 31.53 / 74.80
+For Training, at Epoch [49/100], Training Time: 202.306, Learning rate: 0.0195, Train vs Valid Loss: 3.4504 / 4.3143, Train vs Valid Perplexity: 31.51 / 74.76
+For Training, at Epoch [50/100], Training Time: 202.799, Learning rate: 0.0195, Train vs Valid Loss: 3.4541 / 4.3138, Train vs Valid Perplexity: 31.63 / 74.73
+For Training, at Epoch [51/100], Training Time: 202.586, Learning rate: 0.0098, Train vs Valid Loss: 3.4504 / 4.3140, Train vs Valid Perplexity: 31.51 / 74.74
+For Training, at Epoch [52/100], Training Time: 202.808, Learning rate: 0.0049, Train vs Valid Loss: 3.4500 / 4.3139, Train vs Valid Perplexity: 31.50 / 74.73
+For Training, at Epoch [53/100], Training Time: 203.363, Learning rate: 0.0049, Train vs Valid Loss: 3.4491 / 4.3138, Train vs Valid Perplexity: 31.47 / 74.72
+For Training, at Epoch [54/100], Training Time: 202.878, Learning rate: 0.0049, Train vs Valid Loss: 3.4504 / 4.3137, Train vs Valid Perplexity: 31.51 / 74.71
+For Training, at Epoch [55/100], Training Time: 204.156, Learning rate: 0.0049, Train vs Valid Loss: 3.4492 / 4.3137, Train vs Valid Perplexity: 31.48 / 74.71
+^C-----------------------------------------------------------------------------------------
+Exiting from training early
